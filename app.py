@@ -27,14 +27,15 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
     st.subheader("2002")
-    arquivo = f"mapas/eleicao_2002_t{turno}.html"
+    arquivo = f"eleicao_2002_t{turno}.html"
     exibir_html(arquivo)
 
 with col2:
     st.subheader("2018")
-    arquivo = f"mapas/eleicao_2018_t{turno}.html"
+    arquivo = f"eleicao_2018_t{turno}.html"
     exibir_html(arquivo)
 
 with col3:
     st.subheader("Zonas Eleitorais")
-    exibir_html("mapas/zonas_fixas.html")
+    exibir_html("zonas_fixas.html")
+
